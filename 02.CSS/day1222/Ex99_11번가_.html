@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            /* border: 1px solid black; */
+            width: 500px;
+            margin: auto;
+            padding: 100px 0px 0px;
+            
+        }
+        #top{
+            /* border: 1px solid green; */
+            margin: auto;
+            width: 5dvh;
+            
+        }
+        
+    #middle{
+        border: 1px solid rgb(220, 220, 220);
+        width: 600px;
+        margin: auto;
+        
+        /* height: 800px; */
+        
+    }
+    #bottom{
+        border: 1px solid green;
+    }
+    #inputDiv{
+        /* border: 1px solid blue; */
+        width: 500px;
+        margin: auto;
+        margin-bottom: 15px; 
+    }
+    #btnDiv{
+        /* border: 1px solid blue; */
+        width: 500px;
+        margin: auto; 
+        margin-bottom: 10px;
+    }
+    
+    .inputtag{
+        width: 450px;
+        padding: 0px 20px;
+        height: 50px;
+        margin: auto;
+    }
+    .inputtag:focus{
+        outline: none;
+    }
+    .inputtag::placeholder{
+        font-size: large;
+    }
+    #loginbtn{
+        background-color: red;
+        width: 495px;
+        padding: 20px 10px 50px;
+        font-size: 25px;
+        border: 50px; 
+        border-radius: 10px;
+        margin: auto;
+        margin-bottom: 10;
+        height: 50px;
+        color: aliceblue;
+
+        
+    }
+    #qrbtn{
+        background-color: rgb(200, 200, 200);
+        color: black;
+        width: 310px;
+        padding: 20px;
+        font-size:large;
+        letter-spacing: 1px;
+        border-radius: 8px;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        border: 0px;
+
+    }
+    .hr-sect {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 12px;
+    margin: 8px 0px;
+    width: 500px;
+    padding: 40px 50px;
+  }
+  .hr-sect::before,
+  .hr-sect::after {
+    content: "";
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.35);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 16px;
+  }
+  #joindiv{
+    /* border: 1px solid blue; */
+    width: 100px;
+    margin: auto;
+  }
+  .jointag{
+    text-decoration: none;
+    color: black;
+
+  }
+  .padding100{
+    padding-left: 110px;
+  }
+  #top{
+    margin: auto;
+    width: 100px;
+  }
+  #banner{
+    width: 600px;
+    margin: auto;
+    padding: 50px 0px 0px;
+  }
+  #y1{
+    width: 500px;
+    margin: auto;
+    
+    
+  }
+  #icon{
+    width: 500px;
+    margin: auto;
+    padding: 20px 0px 30px;
+    }
+    #SNS{
+        width: 600px;
+        margin: auto;
+        padding: 20px 50px;
+    }
+    .ic{
+        width: 65px;
+    }
+    .jointag{
+        font-size: 18px;
+        padding: 10px;
+        }
+    #st11{
+        padding: 50px 0px 30px;
+
+    }
+    #co{
+        font-size: 12px;
+        margin: auto;
+        width: 300px;
+        padding: 0px 0px 0px 50px;
+    }
+    
+    </style>
+
+</head>
+<body>
+        <div id="main">
+            
+            <div id="middle">
+                <div id="top">
+                    <img src="img/11st.svg" id="st11"/>
+                </div>
+                <div id="inputDiv">
+                    <input type="text" class="inputtag" placeholder="아이디 입력"/>
+                    <br/>
+                    <input type="password" class="inputtag" placeholder="비밀번호8자~20자"/>
+                </div>
+
+                <div id="btnDiv">
+                    <button type="button" id="loginbtn">로그인</button>
+                </div>
+                
+                <div id="y1">
+                    <input type="checkbox" id="y">
+                    <label for="y">로그인 상태 유지</label>
+                </div>
+                
+                <div class="hr-sect">또는 SNS 아이디로 로그인</div>
+                
+                <div id="icon">
+                <img class="ic" src="img/sns-kakao.svg"/>
+                <img class="ic" src="img/sns-naver.svg"/>
+                <img class="ic" src="img/sns-tid.svg"/>
+                <img class="ic" src="img/sns-apple.svg"/>
+                <img class="ic" src="img/sns-payco.svg"/>
+                <img class="ic" src="img/sns-facebook.svg"/>
+                <img class="ic" src="img/sns-phone.svg"/>
+                 </div>
+
+
+            </div>
+            <div id="bot">
+            <div id="SNS"> 
+                <a href="#" class="jointag">아이디찾기</a>
+                <a href="#" class="jointag">비밀번호찾기</a>
+                <a href="#" class="jointag">비회원 주문조회</a>
+                <a href="#" class="jointag">회원가입</a>
+                </div>
+
+
+                <div>
+                    <img src="img/2023122009052027821_13147049_1.png" id="banner"/>
+                </div>
+                <p id="co">copyright ⓒ 2019 11Street Co.Ltd.All Rights Reserved.</p>
+                </div>
+
+                
+                
+                
+                
+                
+                
+             
+              
+              
+                    
+                
+
+
+        
+    
+
+</body>
+</html>

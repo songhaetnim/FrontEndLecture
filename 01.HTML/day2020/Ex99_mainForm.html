@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>로그인 정보</legend>
+            <ol>
+              <li>
+                아이디
+                <input type="text" required>
+              </li>
+             
+              <li>
+                비밀 번호
+                <input type="text" required>
+              </li>
+           
+              <li>
+                비밀번호 확인
+                <input type="text" required>
+              </li>
+
+            <li>
+            회원 등급 
+            <input type="text" value="준회원" readonly>
+            </li>
+        </ol> </fieldset> 
+    
+
+
+        
+
+        
+            <fieldset>
+                <legend>개인 정보</legend>
+                <ol>
+                  <li>
+                    이름
+                    <input type="text" >
+                  </li>
+
+                  <li>
+                  메일 주소 
+                  <input type="text" >
+                 </li>
+
+                 <li>
+                  연락처
+                  <input type="text" pattern="(010|011)-\d{3,4}-\d{4}"><br/>
+                 </li>
+
+                 <li>
+                  생일
+                <input type="date" value="2023-12-19"
+                min="2023-12-18" max="2023-12-25"/> <br/>
+                 </li>
+                  
+                </ol> 
+              </fieldset> 
+
+
+
+                  <fieldset>
+                      <legend>코딩 숙련도 (상,중,하)</legend>
+                      <ol>
+                        <li>
+                          <input id="skill" name="skill" type="range" 
+                            min="1" max="10" step="1"  list='skillstep'>
+                          <!-- datalist : 실선으로 단계를 보이게 하는 것임 -->
+                          <datalist id="skillstep">
+                               <option value="2" label="Low">
+                               <option value="5" label="Medium">
+                               <option value="8" label="High">
+                          </datalist>
+                        </li>  
+                      </ol>
+                </fieldset>   
+              
+              <fieldset>
+                <input type="submit">
+              </fieldset>
+            </form>
+
+
+
+
+
+
+        
+    
+</body>
+</html>
