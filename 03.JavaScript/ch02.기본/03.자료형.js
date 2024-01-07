@@ -18,7 +18,7 @@ console.log(hello[0],hello[2], hello[5]);
 let a =2, b = 3;
 console.log(a, '더하기',b,'은',2 + 3,'입니다');
 console.log(`${a} 더하기 ${b}은 ${a+b}입니다.`)
-console.log(`올해는 ${new Date().getFullYear()}년입니다`); */
+console.log(`올해는 ${new Date().getFullYear()}년입니다`);
 /*
     full year
         fullYear    :camel case -->Getter method    -->getFullTear (클래스만 대문자 나머진 소문자)

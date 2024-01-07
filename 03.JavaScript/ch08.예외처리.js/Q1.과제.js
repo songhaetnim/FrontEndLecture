@@ -67,7 +67,7 @@ function sumOfSquare(arr) {
  return sumMaxArray - sumArray
 }
 
-let sampleArray = [43, 17, 25, 36, 98, 73];
+let sampleArray = [24, 67, 45, 97, 43,];
 console.log(sumOfSquare(sampleArray));
 
 
