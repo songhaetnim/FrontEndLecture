@@ -1,0 +1,17 @@
+댓글 0URL 복사
+다음의 문제를 연습문제.html과 연습문제.js 파일로 만들어서 제출하세요.
+
+문제 1.
+정수 두 개를 입력 받아 (첫 번째 입력 값의 범위는 1~20, 두 번째 입력 값의 범위는 10~30이며 
+첫 번째 입력 값은 두 번째 입력 값보다 4 이상 작아야 합니다). 
+첫 번째 정수부터 두 번째 정수까지를 지수로 하는 2의 거듭제곱 배열을 출력하는 프로그램을 만드세요.
+
+문제 2. 
+다음의 문자열에서 'the'의 개수를 출력하는 프로그램을 만드세요. 
+단, 모든 문자가 소문자인 'the'만 찾으면 되며 'them', 'there', 
+'their' 등은 포함하지 않아야 합니다.
+the grown-ups' response, this time, was to advise me to lay aside my drawings of boa constrictors, whether from the inside or the outside, and devote myself instead to geography, history, arithmetic, and grammar. That is why, at the, age of six, I gave up what might have been a magnificent career as a painter. I had been disheartened by the failure of my Drawing Number One and my Drawing Number Two. Grown-ups never understand anything by themselves, and it is tiresome for children to be always and forever explaining things to the.
+
+문제 3.
+입력으로 받은 다음의 가격을 내림차순으로 출력하는 프로그램을 만드세요.
+51900;83000;158000;367500;250000;59200;128500;1304000
