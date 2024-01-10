@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--어제 과제 1, 2, 3 r과 digital clock을 jQuery로 바꾸어 보세요.
+         문제 1.
+    정수 두 개를 입력 받아 (첫 번째 입력 값의 범위는 1~20, 두 번째 입력 값의 범위는 10~30이며 
+    첫 번째 입력 값은 두 번째 입력 값보다 4 이상 작아야 합니다). 
+    첫 번째 정수부터 두 번째 정수까지를 지수로 하는 2의 거듭제곱 배열을 출력하는 프로그램을 만드세요.
+-->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(() => {
+        $('<h1></h1>').text('문서객체 생성').appendTo('body');
+        for(let i =0; i < 256; i++){
+            $('<div></div>')
+                .css('height','2px')
+                .css('backgroundColor',`rgb(${255-i},${255-i},${255-i})`)
+                .appendTo('body')
+        }
+    });
+</script>
+
+
+</body>
+</html>
