@@ -15,13 +15,21 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script>
     $(document).ready(() => {
-        $('<h1></h1>').text('문서객체 생성').appendTo('body');
-        for(let i =0; i < 256; i++){
-            $('<div></div>')
-                .css('height','2px')
-                .css('backgroundColor',`rgb(${255-i},${255-i},${255-i})`)
-                .appendTo('body')
-        }
+       let input1 =$('input')[0];
+       let input2 =$('input')[1];
+
+       input.on('keyup',function(e) {
+        console.log(input1.val());
+        if(input1.val().length >= 6)
+           input2.focus();
+       });
+       input2.on('keyup',function(e) {
+        if($(this).val() == '/h')
+           input1.focus();
+        /* let event = e || window.event;           // 이벤트 객체 추출
+        if (event.keyCode == 8 && input2)   */
+       })
+   
     });
 </script>
 
