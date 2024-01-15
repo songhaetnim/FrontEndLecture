@@ -19,34 +19,25 @@
              .attr('width', 500)
              .attr('id','second')
              .css('margin','30px')
-             .appendTo($('#show'))
         }
-        function hide() {               
-            $('#second').remove();
-        }
-        $(document).ready(() => {            // document + ready 시작할때 쓰는 단어
-           disp(count--);
-           let si = setInterval(function(){
-               hide();
-               if(count != 0)
-               disp(count--);
-            else{
-                $('<h3></h3>')
-                .text(`결과는 ${Math.ceil(Math.random() * 6)} 입니다.`)
-                .appendTo($('#show'));
 
-            }
-           }, 1000);
-           setTimeout(()=>{
-           clearInterval(si);
-           }, 3100);
-       
-        });
-    </script>
-</head>
-<body style="margin: 50px;">
-  <h1>3초 후에 결과 보여주기</h1>
-  <hr>
-  <div id="show"></div>
-</body>
-</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
